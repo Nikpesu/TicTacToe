@@ -15,10 +15,10 @@ using namespace std;
 
 void save_check()
 {
-	//izrada foldera ako ga nema
+	//creating a folder if its missing
 	CreateDirectory(".//saves", NULL);	
 	
-	//trazenje slijedeceg save file-a
+	//finding next sutible file name
 	ifstream checksave("");
 	do
 	{
